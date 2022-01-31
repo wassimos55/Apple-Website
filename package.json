@@ -1,0 +1,24 @@
+{
+  "name": "Apple-",
+  "version": "1.0.0",
+  "description": "1 - npm init -y\r 2 - npm install tailwindcss\r 3 - create src folder\r 4 - create \"style.css\" file inside \"srs\" folder\r 5 - insert into \"style.css\"\r     @tailwind base;\r     @tailwind components;\r     @tailwind utilities;\r 6 - create new folder named \"public\"\r 7 - create \"style.css\" inside \"public\" folder     \r 8 - create \"index.html\" inside \"public\" folder \r 9 - edit this secript inside \"package.json\" folder \r       \"scripts\": {\r             \"build:css\": \"tailwind build src/style.css -o public/style.css \"\r        },\r 10 - npm run build:css",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build src/tailwind.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wassimos55/Apple-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wassimos55/Apple-Website/issues"
+  },
+  "homepage": "https://github.com/wassimos55/Apple-Website#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "tailwindcss": "^3.0.18"
+  }
+}
