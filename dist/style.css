@@ -6583,6 +6583,12 @@ video {
   min-height: 100vh;
 }
 
+@media (min-width:550px){
+  .min-h-home-lg{
+    min-height:75vh;
+  }
+}
+
 .w-0 {
   width: 0px;
 }
